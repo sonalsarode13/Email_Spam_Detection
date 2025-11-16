@@ -1,4 +1,6 @@
 # Email_Spam_Detection
 
-Libraries used is:
-nltk-----( Natural Language Toolkit, is a Python package that you can use for NLP. A lot of the data that you could be analyzing is unstructured data and contains human-readable text. Before you can analyze that data programmatically, you first need to preprocess it.)
+An email spam-detection machine learning model was developed using multiple algorithms. After performing extensive data preprocessing, algorithms such as Random Forest, Naive Bayes, Gradient Boosting, Logistic Regression, and Decision Tree were applied. NLP preprocessing techniques including text lowercasing, removal of URLs, HTML tags, punctuation, and stopwords, Tokenization along with stemming and lemmatization were implemented. Additionally, the TF-IDF technique was used to convert text data into numerical feature vectors. The model was then validated by inputting text data to accurately classify emails as spam or not spam.
+-Resources : Jupyter Notebook, CSV files
+-Technologies : ML,NLP
+-Librariers : NLTK, Scikit-Learn
